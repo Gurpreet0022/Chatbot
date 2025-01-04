@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Is anyone there?",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I support you today?",
+        "Hi, I'm here to help. What's on your mind?",
+        "Hey there! Tell me how you're feeling."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Take care! Remember, I'm here whenever you need.",
+        "Goodbye! Stay safe and take care.",
+        "See you later! Stay positive."
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "I feel stressed",
+        "I'm overwhelmed",
+        "How do I manage stress?",
+        "I can't handle it anymore"
+      ],
+      "responses": [
+        "I'm sorry you're feeling this way. Would you like to try a simple breathing exercise?",
+        "Stress can be overwhelming. Let’s work through it together. How about a mindfulness tip?",
+        "You’re not alone. I’m here to support you. Let’s start with a calming exercise."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I feel anxious",
+        "My heart is racing",
+        "How can I calm my anxiety?",
+        "I can't stop worrying"
+      ],
+      "responses": [
+        "Anxiety can be tough. Try inhaling for 4 seconds, holding for 4, and exhaling for 4. It might help.",
+        "Let’s work on calming your mind. Would you like some grounding techniques?",
+        "It’s okay to feel this way. Let’s take a moment to focus on your breath."
+      ]
+    },
+    {
+      "tag": "self_harm",
+      "patterns": [
+        "I feel like hurting myself",
+        "I don’t want to live",
+        "I feel hopeless",
+        "I’m thinking of self-harm"
+      ],
+      "responses": [
+        "I’m so sorry you’re feeling this way. Please reach out to someone you trust or contact a helpline: 180-XXX-XXX.",
+        "You’re not alone in this. Please talk to a trusted person or call 988 .",
+        "It’s important to talk to someone. I recommend reaching out to a mental health professional or a close friend."
+      ]
+    },
+    {
+      "tag": "relaxation_tips",
+      "patterns": [
+        "How can I relax?",
+        "What are some relaxation techniques?",
+        "I need to calm down"
+      ],
+      "responses": [
+        "Try progressive muscle relaxation. Start from your toes and tense each muscle group for 5 seconds, then release.",
+        "A warm bath, soothing music, or journaling might help you relax.",
+        "Would you like to try guided meditation or a quick breathing exercise?"
+      ]
+    },
+    {
+      "tag": "mindfulness",
+      "patterns": [
+        "What is mindfulness?",
+        "How can I practice mindfulness?",
+        "Teach me mindfulness exercises"
+      ],
+      "responses": [
+        "Mindfulness is about being present in the moment. Start by focusing on your breath or observing your surroundings.",
+        "To practice mindfulness, try this: Sit quietly and pay attention to your breathing for 2 minutes.",
+        "Mindfulness can be practiced anywhere. How about starting with a quick body scan meditation?"
+      ]
+    },
+    {
+      "tag": "sleep_tips",
+      "patterns": [
+        "I can't sleep",
+        "How can I get better sleep?",
+        "I have trouble falling asleep"
+      ],
+      "responses": [
+        "Try to establish a bedtime routine. Avoid screens and bright lights an hour before bed.",
+        "Relaxation exercises, like deep breathing, might help you fall asleep faster.",
+        "Listening to calming music or white noise can improve sleep quality."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "How can I practice gratitude?",
+        "What are the benefits of gratitude?",
+        "Tell me about gratitude exercises"
+      ],
+      "responses": [
+        "Practicing gratitude can boost your mood. Try writing down 3 things you’re grateful for each day.",
+        "Gratitude can shift your focus to the positive. Start by saying thank you to someone today.",
+        "Would you like a guided gratitude journal prompt?"
+      ]
+    },
+    {
+      "tag": "general_mental_health",
+      "patterns": [
+        "What is mental health?",
+        "How can I improve my mental health?",
+        "Tell me about mental health awareness"
+      ],
+      "responses": [
+        "Mental health is about your emotional, psychological, and social well-being. Taking care of it is important.",
+        "Improving mental health can involve regular exercise, healthy eating, and connecting with supportive people.",
+        "Mental health awareness helps reduce stigma. Let’s talk about how you’re feeling."
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "Can you recommend a therapist?",
+        "Where can I get help?",
+        "Are there mental health resources you suggest?"
+      ],
+      "responses": [
+        "You can check out these resources: [https://www.who.int/news-room/feature-stories/mental-well-being-resources-for-the-public]. Let me know if you need more options.",
+        "Here’s a directory of mental health professionals: [link].",
+        "For immediate support, contact this helpline: 988."
+      ]
+    },
+    {
+      "tag": "gratitude_journal",
+      "patterns": [
+        "What is a gratitude journal?",
+        "How do I start a gratitude journal?",
+        "What should I write in a gratitude journal?"
+      ],
+      "responses": [
+        "A gratitude journal is where you write things you’re thankful for. Start with three positive things from your day.",
+        "Write about moments, people, or things that made you feel grateful today.",
+        "Starting a gratitude journal can improve your mental well-being. Let me know if you’d like prompts!"
+      ]
+    },
+    {
+      "tag": "exercise_for_mental_health",
+      "patterns": [
+        "How does exercise help mental health?",
+        "Can exercise reduce anxiety?",
+        "What are some exercises for mental well-being?"
+      ],
+      "responses": [
+        "Exercise can release endorphins and improve your mood. Try activities like yoga, walking, or dancing.",
+        "Physical activity can help reduce anxiety and boost your overall well-being.",
+        "Even small exercises, like stretching or a 10-minute walk, can improve mental health."
+      ]
+    },
+    {
+      "tag": "nutrition_and_mental_health",
+      "patterns": [
+        "How does diet affect mental health?",
+        "What foods are good for mental health?",
+        "Can what I eat impact my mood?"
+      ],
+      "responses": [
+        "A balanced diet can improve your mood. Foods like nuts, leafy greens, and fish are great for mental health.",
+        "Staying hydrated and eating regularly can stabilize your mood.",
+        "Certain vitamins and nutrients, like omega-3s and magnesium, can benefit your mental well-being."
+      ]
+    },
+    {
+      "tag": "journaling_tips",
+      "patterns": [
+        "How can journaling help mental health?",
+        "What should I write in my journal?",
+        "Can journaling reduce stress?"
+      ],
+      "responses": [
+        "Journaling can help process emotions. Try writing about your day or things you’re grateful for.",
+        "Expressing your thoughts on paper can reduce stress and improve self-awareness.",
+        "Start with simple prompts like, 'How am I feeling today?' or 'What made me smile today?'"
+      ]
+    },
+    {
+      "tag": "support_for_loved_ones",
+      "patterns": [
+        "How can I support a friend with mental health issues?",
+        "What do I say to someone who is struggling?",
+        "How do I help someone feeling depressed?"
+      ],
+      "responses": [
+        "Listen without judgment and let them know you’re there for them.",
+        "Encourage them to seek professional help if needed. Offer to help them find resources.",
+        "Sometimes, just being present and showing empathy can make a big difference."
+      ]
+    },
+    {
+      "tag": "coping_with_loss",
+      "patterns": [
+        "I lost someone close to me",
+        "How do I deal with grief?",
+        "Coping with loss is so hard"
+      ],
+      "responses": [
+        "I am sorry for your loss. Grieving takes time, and it is okay to feel what you are feeling.",
+        "Talking to someone you trust or a counselor can help you process your grief.",
+        "Try to focus on self-care during this time. I am here to listen if you want to share."
+      ]
+      }]
+    }
+   
+
